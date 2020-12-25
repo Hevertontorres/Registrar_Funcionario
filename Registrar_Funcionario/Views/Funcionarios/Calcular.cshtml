@@ -1,0 +1,28 @@
+﻿@model IEnumerable<Registrar_Funcionario.Models.Funcionario>
+
+@{
+    ViewBag.Title = "Calcular";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if (Model.Count() > 0)
+{
+    <h2>Custo Mensal</h2>
+
+    using (Html.BeginForm("Calcular", "Funcionarios", FormMethod.Post))
+    {
+        <input type="month" name="mes" id="mes" />
+        <button class="btn btn-success btn-sm" type="submit">Pesquisar</button>
+    }
+    <br />
+    <h3>
+        @Html.Raw(ViewBag.Message)
+    </h3>
+}
+else
+{
+    <h2>Cadastre Funcionarios</h2>
+    <p>
+        @Html.ActionLink("Criar Funcionario", "Create")
+    </p>
+}

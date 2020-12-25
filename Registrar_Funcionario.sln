@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1321
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Registrar_Funcionario", "Registrar_Funcionario\Registrar_Funcionario.csproj", "{37296523-ED04-43F8-8507-9E32E7BEFF31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37296523-ED04-43F8-8507-9E32E7BEFF31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37296523-ED04-43F8-8507-9E32E7BEFF31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37296523-ED04-43F8-8507-9E32E7BEFF31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37296523-ED04-43F8-8507-9E32E7BEFF31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5B21352-6187-47BA-AF5D-7B8F7A5BC832}
+	EndGlobalSection
+EndGlobal
